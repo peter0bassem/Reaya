@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Reyaya
+
+  Created by Peter Bassem on 7/30/19.
+  Copyright © 2019 Peter Bassem. All rights reserved.
+*/
+
+// TabBar Items
+"homeTab" = "الرئيسية";
+"hospitalsTab" = "المستشفيات";
+"pharmaciesTab" = "الصيدليات";
+"settingsTab" = "الإعدادات";

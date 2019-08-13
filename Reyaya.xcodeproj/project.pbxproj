@@ -3,25 +3,118 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51BC5E25BFDB06D29D908391 /* Pods_Reyaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F7F0C9B7F1A5E158CB900C /* Pods_Reyaya.framework */; };
+		E066618122F08CAC007BBF9D /* HomeViewController+MKMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618022F08CAC007BBF9D /* HomeViewController+MKMapViewDelegate.swift */; };
+		E066618922F0B9DB007BBF9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618822F0B9DB007BBF9D /* LoginViewController.swift */; };
+		E066618B22F0BE50007BBF9D /* LoginEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618A22F0BE50007BBF9D /* LoginEndPoint.swift */; };
+		E066618D22F0BEEB007BBF9D /* LoginAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618C22F0BEEB007BBF9D /* LoginAPIClient.swift */; };
+		E066619022F0C706007BBF9D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618E22F0C705007BBF9D /* LoginModel.swift */; };
+		E066619122F0C706007BBF9D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066618F22F0C706007BBF9D /* Token.swift */; };
+		E066619322F0CFD2007BBF9D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066619222F0CFD2007BBF9D /* User.swift */; };
+		E066619522F0DA27007BBF9D /* HospitalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066619422F0DA27007BBF9D /* HospitalsViewController.swift */; };
+		E066619922F0DA76007BBF9D /* PharmaciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066619822F0DA76007BBF9D /* PharmaciesViewController.swift */; };
+		E066619C22F0DA9E007BBF9D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066619B22F0DA9E007BBF9D /* SettingsViewController.swift */; };
+		E09FCA102302EB400060FFFC /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FCA0E2302EB400060FFFC /* AlertView.swift */; };
+		E09FCA112302EB400060FFFC /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09FCA0F2302EB400060FFFC /* AlertView.xib */; };
 		E0E272D722F060FF00AFEA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E272D622F060FF00AFEA3D /* AppDelegate.swift */; };
-		E0E272D922F060FF00AFEA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E272D822F060FF00AFEA3D /* ViewController.swift */; };
 		E0E272DC22F060FF00AFEA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E272DA22F060FF00AFEA3D /* Main.storyboard */; };
 		E0E272DE22F0610000AFEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E272DD22F0610000AFEA3D /* Assets.xcassets */; };
 		E0E272E122F0610000AFEA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E272DF22F0610000AFEA3D /* LaunchScreen.storyboard */; };
+		E0E2736D22F0614100AFEA3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E272E922F0614100AFEA3D /* Constants.swift */; };
+		E0E2737022F0614100AFEA3D /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E272EC22F0614100AFEA3D /* LocalizationSystem.swift */; };
+		E0E273B222F0614100AFEA3D /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733722F0614100AFEA3D /* IQTextView.swift */; };
+		E0E273B322F0614100AFEA3D /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733922F0614100AFEA3D /* IQPreviousNextView.swift */; };
+		E0E273B422F0614100AFEA3D /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733A22F0614100AFEA3D /* IQTitleBarButtonItem.swift */; };
+		E0E273B522F0614100AFEA3D /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733B22F0614100AFEA3D /* IQBarButtonItem.swift */; };
+		E0E273B622F0614100AFEA3D /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733C22F0614100AFEA3D /* IQToolbar.swift */; };
+		E0E273B722F0614100AFEA3D /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733D22F0614100AFEA3D /* IQUIView+IQKeyboardToolbar.swift */; };
+		E0E273B822F0614100AFEA3D /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2733E22F0614100AFEA3D /* IQInvocation.swift */; };
+		E0E273B922F0614100AFEA3D /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734022F0614100AFEA3D /* IQKeyboardManagerConstantsInternal.swift */; };
+		E0E273BA22F0614100AFEA3D /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734122F0614100AFEA3D /* IQKeyboardManagerConstants.swift */; };
+		E0E273BB22F0614100AFEA3D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0E2734322F0614100AFEA3D /* IQKeyboardManager.bundle */; };
+		E0E273BC22F0614100AFEA3D /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734422F0614100AFEA3D /* IQKeyboardReturnKeyHandler.swift */; };
+		E0E273BD22F0614100AFEA3D /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734522F0614100AFEA3D /* IQKeyboardManager.swift */; };
+		E0E273BE22F0614100AFEA3D /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734722F0614100AFEA3D /* IQUIScrollView+Additions.swift */; };
+		E0E273BF22F0614100AFEA3D /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734822F0614100AFEA3D /* IQUIViewController+Additions.swift */; };
+		E0E273C022F0614100AFEA3D /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734922F0614100AFEA3D /* IQUITextFieldView+Additions.swift */; };
+		E0E273C122F0614100AFEA3D /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734A22F0614100AFEA3D /* IQUIView+Hierarchy.swift */; };
+		E0E273C222F0614100AFEA3D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734B22F0614100AFEA3D /* IQNSArray+Sort.swift */; };
+		E0E273C322F0614100AFEA3D /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734D22F0614100AFEA3D /* APIConfiguration.swift */; };
+		E0E273C422F0614100AFEA3D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734E22F0614100AFEA3D /* APIClient.swift */; };
+		E0E273C522F0614100AFEA3D /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2734F22F0614100AFEA3D /* NetworkConstants.swift */; };
+		E0E273C622F0614100AFEA3D /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2735022F0614100AFEA3D /* COLORS.swift */; };
+		E0E273C722F0614100AFEA3D /* noto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E2735222F0614100AFEA3D /* noto.ttf */; };
+		E0E273C822F0614100AFEA3D /* NotoKufiArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E2735322F0614100AFEA3D /* NotoKufiArabic-Bold.ttf */; };
+		E0E273C922F0614100AFEA3D /* bariol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E2735422F0614100AFEA3D /* bariol.ttf */; };
+		E0E273CA22F0614100AFEA3D /* Bariol_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0E2735522F0614100AFEA3D /* Bariol_Bold.otf */; };
+		E0E273CF22F0614100AFEA3D /* ActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2735B22F0614100AFEA3D /* ActivityIndicatorManager.swift */; };
+		E0E273D122F0614100AFEA3D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2735D22F0614100AFEA3D /* Utils.swift */; };
+		E0E273E322F0656F00AFEA3D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E273E222F0656F00AFEA3D /* TabBarController.swift */; };
+		E0E273E822F0674900AFEA3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E273EA22F0674900AFEA3D /* Localizable.strings */; };
+		E0E273F822F06DA100AFEA3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E273F722F06DA100AFEA3D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CF5B0164854F771F84768E4 /* Pods-Reyaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyaya.debug.xcconfig"; path = "Target Support Files/Pods-Reyaya/Pods-Reyaya.debug.xcconfig"; sourceTree = "<group>"; };
+		90F7F0C9B7F1A5E158CB900C /* Pods_Reyaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reyaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA607C4B4D75A3BF358EE740 /* Pods-Reyaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyaya.release.xcconfig"; path = "Target Support Files/Pods-Reyaya/Pods-Reyaya.release.xcconfig"; sourceTree = "<group>"; };
+		E066618022F08CAC007BBF9D /* HomeViewController+MKMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+MKMapViewDelegate.swift"; sourceTree = "<group>"; };
+		E066618822F0B9DB007BBF9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E066618A22F0BE50007BBF9D /* LoginEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEndPoint.swift; sourceTree = "<group>"; };
+		E066618C22F0BEEB007BBF9D /* LoginAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIClient.swift; sourceTree = "<group>"; };
+		E066618E22F0C705007BBF9D /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E066618F22F0C706007BBF9D /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E066619222F0CFD2007BBF9D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E066619422F0DA27007BBF9D /* HospitalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsViewController.swift; sourceTree = "<group>"; };
+		E066619822F0DA76007BBF9D /* PharmaciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesViewController.swift; sourceTree = "<group>"; };
+		E066619B22F0DA9E007BBF9D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E09FCA0E2302EB400060FFFC /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		E09FCA0F2302EB400060FFFC /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
 		E0E272D322F060FF00AFEA3D /* Reyaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reyaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E272D622F060FF00AFEA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0E272D822F060FF00AFEA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0E272DB22F060FF00AFEA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E272DD22F0610000AFEA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E272E022F0610000AFEA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E272E222F0610000AFEA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E272E922F0614100AFEA3D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0E272EC22F0614100AFEA3D /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		E0E2733722F0614100AFEA3D /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E0E2733922F0614100AFEA3D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E0E2733A22F0614100AFEA3D /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E0E2733B22F0614100AFEA3D /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E0E2733C22F0614100AFEA3D /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E0E2733D22F0614100AFEA3D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E0E2733E22F0614100AFEA3D /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		E0E2734022F0614100AFEA3D /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E0E2734122F0614100AFEA3D /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E0E2734322F0614100AFEA3D /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E0E2734422F0614100AFEA3D /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E0E2734522F0614100AFEA3D /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E0E2734722F0614100AFEA3D /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E0E2734822F0614100AFEA3D /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E0E2734922F0614100AFEA3D /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E0E2734A22F0614100AFEA3D /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E0E2734B22F0614100AFEA3D /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E0E2734D22F0614100AFEA3D /* APIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		E0E2734E22F0614100AFEA3D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E0E2734F22F0614100AFEA3D /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		E0E2735022F0614100AFEA3D /* COLORS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
+		E0E2735222F0614100AFEA3D /* noto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noto.ttf; sourceTree = "<group>"; };
+		E0E2735322F0614100AFEA3D /* NotoKufiArabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoKufiArabic-Bold.ttf"; sourceTree = "<group>"; };
+		E0E2735422F0614100AFEA3D /* bariol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bariol.ttf; sourceTree = "<group>"; };
+		E0E2735522F0614100AFEA3D /* Bariol_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold.otf; sourceTree = "<group>"; };
+		E0E2735B22F0614100AFEA3D /* ActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		E0E2735D22F0614100AFEA3D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E0E273E222F0656F00AFEA3D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E0E273E422F0672F00AFEA3D /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E0E273E522F0672F00AFEA3D /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Main.strings"; sourceTree = "<group>"; };
+		E0E273E922F0674900AFEA3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E0E273EB22F0674B00AFEA3D /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E0E273F722F06DA100AFEA3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +122,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BC5E25BFDB06D29D908391 /* Pods_Reyaya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F597DD15F482A9161C4A500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F7F0C9B7F1A5E158CB900C /* Pods_Reyaya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E248FFC1DD2CEEF603223D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5B0164854F771F84768E4 /* Pods-Reyaya.debug.xcconfig */,
+				AA607C4B4D75A3BF358EE740 /* Pods-Reyaya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E066618222F0B2AD007BBF9D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E066618722F0B2C8007BBF9D /* Model */,
+				E066618622F0B2C2007BBF9D /* View */,
+				E066618522F0B2BE007BBF9D /* Controller */,
+				E066618322F0B2B3007BBF9D /* Network */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E066618322F0B2B3007BBF9D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E066618A22F0BE50007BBF9D /* LoginEndPoint.swift */,
+				E066618C22F0BEEB007BBF9D /* LoginAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E066618522F0B2BE007BBF9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E066618822F0B9DB007BBF9D /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E066618622F0B2C2007BBF9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E066618722F0B2C8007BBF9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E066618E22F0C705007BBF9D /* LoginModel.swift */,
+				E066618F22F0C706007BBF9D /* Token.swift */,
+				E066619222F0CFD2007BBF9D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E066619622F0DA5F007BBF9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E066619422F0DA27007BBF9D /* HospitalsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E066619722F0DA68007BBF9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E066619822F0DA76007BBF9D /* PharmaciesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E066619A22F0DA95007BBF9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E066619B22F0DA9E007BBF9D /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E0E272CA22F060FF00AFEA3D = {
 			isa = PBXGroup;
 			children = (
 				E0E272D522F060FF00AFEA3D /* Reyaya */,
 				E0E272D422F060FF00AFEA3D /* Products */,
+				9E248FFC1DD2CEEF603223D8 /* Pods */,
+				8F597DD15F482A9161C4A500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +236,236 @@
 		E0E272D522F060FF00AFEA3D /* Reyaya */ = {
 			isa = PBXGroup;
 			children = (
-				E0E272D622F060FF00AFEA3D /* AppDelegate.swift */,
-				E0E272D822F060FF00AFEA3D /* ViewController.swift */,
-				E0E272DA22F060FF00AFEA3D /* Main.storyboard */,
-				E0E272DD22F0610000AFEA3D /* Assets.xcassets */,
-				E0E272DF22F0610000AFEA3D /* LaunchScreen.storyboard */,
-				E0E272E222F0610000AFEA3D /* Info.plist */,
+				E0E272E822F0614100AFEA3D /* Utils */,
+				E0E273DF22F0615300AFEA3D /* Configuration */,
+				E0E273E122F0618A00AFEA3D /* Storyboards */,
+				E0E273EC22F06CF400AFEA3D /* Scenes */,
 			);
 			path = Reyaya;
+			sourceTree = "<group>";
+		};
+		E0E272E822F0614100AFEA3D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E09FCA0E2302EB400060FFFC /* AlertView.swift */,
+				E09FCA0F2302EB400060FFFC /* AlertView.xib */,
+				E0E272E922F0614100AFEA3D /* Constants.swift */,
+				E0E272EC22F0614100AFEA3D /* LocalizationSystem.swift */,
+				E0E2735022F0614100AFEA3D /* COLORS.swift */,
+				E0E2733522F0614100AFEA3D /* IQKeyboardManagerSwift */,
+				E0E2734C22F0614100AFEA3D /* NetworkLayer */,
+				E0E2735122F0614100AFEA3D /* Fonts */,
+				E0E2735622F0614100AFEA3D /* UIView+Custom */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E0E2733522F0614100AFEA3D /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2733622F0614100AFEA3D /* IQTextView */,
+				E0E2733822F0614100AFEA3D /* IQToolbar */,
+				E0E2733F22F0614100AFEA3D /* Constants */,
+				E0E2734222F0614100AFEA3D /* Resources */,
+				E0E2734422F0614100AFEA3D /* IQKeyboardReturnKeyHandler.swift */,
+				E0E2734522F0614100AFEA3D /* IQKeyboardManager.swift */,
+				E0E2734622F0614100AFEA3D /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E0E2733622F0614100AFEA3D /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2733722F0614100AFEA3D /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E0E2733822F0614100AFEA3D /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2733922F0614100AFEA3D /* IQPreviousNextView.swift */,
+				E0E2733A22F0614100AFEA3D /* IQTitleBarButtonItem.swift */,
+				E0E2733B22F0614100AFEA3D /* IQBarButtonItem.swift */,
+				E0E2733C22F0614100AFEA3D /* IQToolbar.swift */,
+				E0E2733D22F0614100AFEA3D /* IQUIView+IQKeyboardToolbar.swift */,
+				E0E2733E22F0614100AFEA3D /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E0E2733F22F0614100AFEA3D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2734022F0614100AFEA3D /* IQKeyboardManagerConstantsInternal.swift */,
+				E0E2734122F0614100AFEA3D /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0E2734222F0614100AFEA3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2734322F0614100AFEA3D /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0E2734622F0614100AFEA3D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2734722F0614100AFEA3D /* IQUIScrollView+Additions.swift */,
+				E0E2734822F0614100AFEA3D /* IQUIViewController+Additions.swift */,
+				E0E2734922F0614100AFEA3D /* IQUITextFieldView+Additions.swift */,
+				E0E2734A22F0614100AFEA3D /* IQUIView+Hierarchy.swift */,
+				E0E2734B22F0614100AFEA3D /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E0E2734C22F0614100AFEA3D /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2734D22F0614100AFEA3D /* APIConfiguration.swift */,
+				E0E2734E22F0614100AFEA3D /* APIClient.swift */,
+				E0E2734F22F0614100AFEA3D /* NetworkConstants.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		E0E2735122F0614100AFEA3D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2735222F0614100AFEA3D /* noto.ttf */,
+				E0E2735322F0614100AFEA3D /* NotoKufiArabic-Bold.ttf */,
+				E0E2735422F0614100AFEA3D /* bariol.ttf */,
+				E0E2735522F0614100AFEA3D /* Bariol_Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E0E2735622F0614100AFEA3D /* UIView+Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2735B22F0614100AFEA3D /* ActivityIndicatorManager.swift */,
+				E0E2735D22F0614100AFEA3D /* Utils.swift */,
+			);
+			path = "UIView+Custom";
+			sourceTree = "<group>";
+		};
+		E0E273DF22F0615300AFEA3D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E0E272DF22F0610000AFEA3D /* LaunchScreen.storyboard */,
+				E0E272D622F060FF00AFEA3D /* AppDelegate.swift */,
+				E0E272DD22F0610000AFEA3D /* Assets.xcassets */,
+				E0E272E222F0610000AFEA3D /* Info.plist */,
+				E0E273EA22F0674900AFEA3D /* Localizable.strings */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E0E273E122F0618A00AFEA3D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E0E272DA22F060FF00AFEA3D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E0E273EC22F06CF400AFEA3D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E066618222F0B2AD007BBF9D /* Login */,
+				E0E273F522F06D7C00AFEA3D /* Tabbar */,
+				E0E273F022F06D2500AFEA3D /* Home */,
+				E0E273EF22F06D1E00AFEA3D /* Hospitals */,
+				E0E273EE22F06D1600AFEA3D /* Pharmacies */,
+				E0E273ED22F06D0100AFEA3D /* Settings */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E0E273ED22F06D0100AFEA3D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E066619A22F0DA95007BBF9D /* Controller */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E0E273EE22F06D1600AFEA3D /* Pharmacies */ = {
+			isa = PBXGroup;
+			children = (
+				E066619722F0DA68007BBF9D /* Controller */,
+			);
+			path = Pharmacies;
+			sourceTree = "<group>";
+		};
+		E0E273EF22F06D1E00AFEA3D /* Hospitals */ = {
+			isa = PBXGroup;
+			children = (
+				E066619622F0DA5F007BBF9D /* Controller */,
+			);
+			path = Hospitals;
+			sourceTree = "<group>";
+		};
+		E0E273F022F06D2500AFEA3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0E273F422F06D4700AFEA3D /* Model */,
+				E0E273F322F06D4000AFEA3D /* View */,
+				E0E273F222F06D3900AFEA3D /* Controller */,
+				E0E273F122F06D2F00AFEA3D /* Network */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0E273F122F06D2F00AFEA3D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E0E273F222F06D3900AFEA3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E273F722F06DA100AFEA3D /* HomeViewController.swift */,
+				E066618022F08CAC007BBF9D /* HomeViewController+MKMapViewDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0E273F322F06D4000AFEA3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0E273F422F06D4700AFEA3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0E273F522F06D7C00AFEA3D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E0E273F622F06D8500AFEA3D /* Controller */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E0E273F622F06D8500AFEA3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E273E222F0656F00AFEA3D /* TabBarController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +475,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0E272E522F0610000AFEA3D /* Build configuration list for PBXNativeTarget "Reyaya" */;
 			buildPhases = (
+				75CB9487CF5C540A0B24C7FE /* [CP] Check Pods Manifest.lock */,
 				E0E272CF22F060FF00AFEA3D /* Sources */,
 				E0E272D022F060FF00AFEA3D /* Frameworks */,
 				E0E272D122F060FF00AFEA3D /* Resources */,
+				CAEFA7B8E0FFE48B1D0913C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,6 +512,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-EG",
 			);
 			mainGroup = E0E272CA22F060FF00AFEA3D;
 			productRefGroup = E0E272D422F060FF00AFEA3D /* Products */;
@@ -124,19 +531,104 @@
 			files = (
 				E0E272E122F0610000AFEA3D /* LaunchScreen.storyboard in Resources */,
 				E0E272DE22F0610000AFEA3D /* Assets.xcassets in Resources */,
+				E0E273C822F0614100AFEA3D /* NotoKufiArabic-Bold.ttf in Resources */,
+				E0E273BB22F0614100AFEA3D /* IQKeyboardManager.bundle in Resources */,
+				E0E273C922F0614100AFEA3D /* bariol.ttf in Resources */,
+				E0E273C722F0614100AFEA3D /* noto.ttf in Resources */,
 				E0E272DC22F060FF00AFEA3D /* Main.storyboard in Resources */,
+				E09FCA112302EB400060FFFC /* AlertView.xib in Resources */,
+				E0E273E822F0674900AFEA3D /* Localizable.strings in Resources */,
+				E0E273CA22F0614100AFEA3D /* Bariol_Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75CB9487CF5C540A0B24C7FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reyaya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEFA7B8E0FFE48B1D0913C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reyaya/Pods-Reyaya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reyaya/Pods-Reyaya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reyaya/Pods-Reyaya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0E272CF22F060FF00AFEA3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E272D922F060FF00AFEA3D /* ViewController.swift in Sources */,
+				E0E273B322F0614100AFEA3D /* IQPreviousNextView.swift in Sources */,
+				E0E273C122F0614100AFEA3D /* IQUIView+Hierarchy.swift in Sources */,
+				E0E273C422F0614100AFEA3D /* APIClient.swift in Sources */,
 				E0E272D722F060FF00AFEA3D /* AppDelegate.swift in Sources */,
+				E0E273BF22F0614100AFEA3D /* IQUIViewController+Additions.swift in Sources */,
+				E066618D22F0BEEB007BBF9D /* LoginAPIClient.swift in Sources */,
+				E0E273B422F0614100AFEA3D /* IQTitleBarButtonItem.swift in Sources */,
+				E0E273B522F0614100AFEA3D /* IQBarButtonItem.swift in Sources */,
+				E0E273C622F0614100AFEA3D /* COLORS.swift in Sources */,
+				E066619C22F0DA9E007BBF9D /* SettingsViewController.swift in Sources */,
+				E0E273D122F0614100AFEA3D /* Utils.swift in Sources */,
+				E0E2736D22F0614100AFEA3D /* Constants.swift in Sources */,
+				E0E273C222F0614100AFEA3D /* IQNSArray+Sort.swift in Sources */,
+				E0E273C522F0614100AFEA3D /* NetworkConstants.swift in Sources */,
+				E066618B22F0BE50007BBF9D /* LoginEndPoint.swift in Sources */,
+				E0E273BA22F0614100AFEA3D /* IQKeyboardManagerConstants.swift in Sources */,
+				E0E273C022F0614100AFEA3D /* IQUITextFieldView+Additions.swift in Sources */,
+				E066619522F0DA27007BBF9D /* HospitalsViewController.swift in Sources */,
+				E066618122F08CAC007BBF9D /* HomeViewController+MKMapViewDelegate.swift in Sources */,
+				E0E273B922F0614100AFEA3D /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E0E2737022F0614100AFEA3D /* LocalizationSystem.swift in Sources */,
+				E0E273BC22F0614100AFEA3D /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E09FCA102302EB400060FFFC /* AlertView.swift in Sources */,
+				E0E273CF22F0614100AFEA3D /* ActivityIndicatorManager.swift in Sources */,
+				E0E273E322F0656F00AFEA3D /* TabBarController.swift in Sources */,
+				E0E273B822F0614100AFEA3D /* IQInvocation.swift in Sources */,
+				E066619122F0C706007BBF9D /* Token.swift in Sources */,
+				E0E273B622F0614100AFEA3D /* IQToolbar.swift in Sources */,
+				E066619322F0CFD2007BBF9D /* User.swift in Sources */,
+				E0E273F822F06DA100AFEA3D /* HomeViewController.swift in Sources */,
+				E0E273BD22F0614100AFEA3D /* IQKeyboardManager.swift in Sources */,
+				E066618922F0B9DB007BBF9D /* LoginViewController.swift in Sources */,
+				E0E273B222F0614100AFEA3D /* IQTextView.swift in Sources */,
+				E0E273C322F0614100AFEA3D /* APIConfiguration.swift in Sources */,
+				E066619922F0DA76007BBF9D /* PharmaciesViewController.swift in Sources */,
+				E0E273B722F0614100AFEA3D /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E066619022F0C706007BBF9D /* LoginModel.swift in Sources */,
+				E0E273BE22F0614100AFEA3D /* IQUIScrollView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +639,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E0E272DB22F060FF00AFEA3D /* Base */,
+				E0E273E522F0672F00AFEA3D /* ar-EG */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +648,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				E0E272E022F0610000AFEA3D /* Base */,
+				E0E273E422F0672F00AFEA3D /* ar-EG */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E273EA22F0674900AFEA3D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E273E922F0674900AFEA3D /* en */,
+				E0E273EB22F0674B00AFEA3D /* ar-EG */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +731,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,16 +785,21 @@
 		};
 		E0E272E622F0610000AFEA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF5B0164854F771F84768E4 /* Pods-Reyaya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Reyaya/Info.plist;
+				DEVELOPMENT_TEAM = 2374DB85G4;
+				INFOPLIST_FILE = "$(SRCROOT)/Reyaya/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Reyaya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +807,21 @@
 		};
 		E0E272E722F0610000AFEA3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA607C4B4D75A3BF358EE740 /* Pods-Reyaya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Reyaya/Info.plist;
+				DEVELOPMENT_TEAM = 2374DB85G4;
+				INFOPLIST_FILE = "$(SRCROOT)/Reyaya/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Reyaya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
